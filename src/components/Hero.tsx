@@ -12,7 +12,7 @@ const Hero = () => {
 export const products = [
   {
     title: "StayNest — Room Listing Platform",
-    link: "https://github.com/ritik2177",
+    link: "https://github.com/ritik0201",
     thumbnail: "image/7.png",
   },
   {
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     title: "CollaBharat — Team Collaboration",
-    link: "https://github.com/ritik2177",
+    link: "https://github.com/ritik0201",
     thumbnail: "image/15.png",
   },
   {
@@ -47,12 +47,12 @@ export const products = [
   },
   {
     title: "GitHub Profile",
-    link: "https://github.com/ritik2177",
+    link: "https://github.com/ritik0201",
     thumbnail: "image/8.png",
   },
   {
     title: "CollaBharat Dashboard",
-    link: "https://github.com/ritik2177",
+    link: "https://github.com/ritik0201",
     thumbnail: "image/14.png",
   },
   {
@@ -77,7 +77,7 @@ export const products = [
   },
   {
     title: "StayNest Student Rental",
-    link: "https://github.com/ritik2177",
+    link: "https://github.com/ritik0201",
     thumbnail: "image/13.png",
   },
   {

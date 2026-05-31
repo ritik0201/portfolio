@@ -117,7 +117,7 @@ export const Header = () => {
           <span className="text-neutral-600">|</span>
           <a href="tel:+919555503658" className="hover:text-yellow-400 transition-colors">📞 +91-9555503658</a>
           <span className="text-neutral-600">|</span>
-          <a href="https://github.com/ritik2177" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">💻 GitHub</a>
+          <a href="https://github.com/ritik0201" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">💻 GitHub</a>
           <span className="text-neutral-600">|</span>
           <a href="https://www.linkedin.com/in/ritik-kumar-058694318/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">🔗 LinkedIn</a>
         </div>
