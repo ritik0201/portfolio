@@ -103,20 +103,34 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-0 px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-0 px-4 w-full left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        <span className="text-yellow-400">Ritik </span> Kumar <br />Aspiring <span className=" text-fuchsia-700">Full Stack</span> Developer
+        <span className="text-yellow-400">Ritik </span> Kumar <br />
+        <span className="text-fuchsia-500">Full Stack</span> Developer
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        BCA Student, <br />
-        <span><a href="mailto:ritikkvs2177@gmail.com"> 📧 Email </a>| <a href="https://github.com/ritik2177"> 💻 Github </a> | <a href="https://www.linkedin.com/in/ritik-kumar-058694318/">🔗 LinkedIn </a></span> <br /> <br />
-        <span className="flex flex-wrap items-start gap-x-2 max-w-5xl">
-          <span className="text-2xl font-bold text-gray-50 whitespace-nowrap">🧑‍💼 About Me :</span>
-          <span className="text-white text-base">
-            I&rsquo;m a passionate and curious BCA student at Ewing Christian  College with a strong interest in web development and cloud computing. I enjoy building real-world applications, exploring new technologies, and solving logical problems. Currently diving deeper into React, Node.js, and DevOps tools.
-          </span>
-        </span>
+      <p className="max-w-3xl text-sm md:text-base mt-4 font-semibold text-neutral-400 tracking-wide">
+        React · TypeScript · Node.js · PostgreSQL
       </p>
+      <div className="max-w-2xl text-base md:text-xl mt-6 dark:text-neutral-200">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm md:text-base text-neutral-300">
+          <a href="mailto:ritikkvs2177@gmail.com" className="hover:text-yellow-400 transition-colors">📧 ritikkvs2177@gmail.com</a>
+          <span className="text-neutral-600">|</span>
+          <a href="tel:+919555503658" className="hover:text-yellow-400 transition-colors">📞 +91-9555503658</a>
+          <span className="text-neutral-600">|</span>
+          <a href="https://github.com/ritik2177" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">💻 GitHub</a>
+          <span className="text-neutral-600">|</span>
+          <a href="https://www.linkedin.com/in/ritik-kumar-058694318/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">🔗 LinkedIn</a>
+        </div>
+        <p className="text-xs md:text-sm text-neutral-400 mt-2">
+          📍 Prayagraj, UP, India (Open to Remote / Relocation)
+        </p>
+        <div className="mt-8 flex flex-col gap-y-2 max-w-5xl">
+          <span className="text-2xl font-bold text-gray-50">🧑‍💼 Professional Summary</span>
+          <span className="text-neutral-300 text-sm md:text-base leading-relaxed text-justify">
+            Full Stack Developer with production experience in React, TypeScript, Node.js/Express, and MongoDB, currently expanding into PostgreSQL. Shipped two live platforms (99.9% uptime), built complete auth flows with RBAC, and integrated third-party payment gateways. Comfortable owning features end-to-end — from schema design to UI — and navigating a codebase without hand-holding. Eager to join a small team, take on varied work, and be on-call when things break.
+          </span>
+        </div>
+      </div>
     </div>
   );
 };

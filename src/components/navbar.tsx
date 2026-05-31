@@ -60,7 +60,7 @@ const Navbar = () => {
       icon: (
         <IconFileDownload className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "image/resumeRitik.pdf",
+      href: "image/Ritik_Kumar_CV.pdf",
     },
   ];
   return (
